@@ -28,18 +28,21 @@ public class Life implements Insurance {
     }
 
     @Override
-    public void calculateRisk() {
+    public double calculateRisk() {
         levelRisk = age*levelHealth/200;
+        return levelRisk;
     }
 
     @Override
-    public void calculatePrice() {
+    public int calculatePrice() {
         price = (int)(levelRisk*1000);
+        return price;
     }
 
     @Override
-    public void calculatePayment() {
+    public int calculatePayment() {
         payment = price*100;
+        return payment;
     }
 
     double calculateHealthLevel(int health){

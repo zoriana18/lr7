@@ -28,22 +28,25 @@ public class Vehicle implements Insurance {
     }
 
     @Override
-    public void calculateRisk() {
+    public double calculateRisk() {
         if(type.equals("motorcycle"))
             levelRisk = 0.3;
         else if(type.equals("truck"))
             levelRisk = 0.2;
         else
             levelRisk = 0.1;
+        return levelRisk;
     }
     @Override
-    public void calculatePrice() {
+    public int calculatePrice() {
         price = (int)(motorVolume*levelRisk*10);
+        return price;
     }
 
     @Override
-    public void calculatePayment() {
+    public int calculatePayment() {
         payment = (int)(priceVehicle*(1-levelRisk));
+        return payment;
     }
 
     @Override

@@ -30,17 +30,20 @@ public class House implements Insurance {
         return priceHouse;
     }
     @Override
-    public void calculateRisk() {
+    public double calculateRisk() {
         levelRisk = (double) area*100/priceHouse;
+        return levelRisk;
     }
     @Override
-    public void calculatePrice() {
+    public int calculatePrice() {
         price = (int)(double)priceHouse/100000*area;
+        return price;
     }
 
     @Override
-    public void calculatePayment() {
+    public int calculatePayment() {
         payment = (int)(priceHouse*(1-levelRisk));
+        return payment;
     }
 
     @Override

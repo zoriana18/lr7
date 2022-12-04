@@ -4,24 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb12cb54-a3d9-4d99-b923-a6bd79a5e2c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/Add.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/Delete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/Derivative.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/Exit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/Show.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/insurances/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/insurances/Insurance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/insurances/Life.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/insurances/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/test.java" afterDir="false" />
+    <list default="true" id="fb12cb54-a3d9-4d99-b923-a6bd79a5e2c1" name="Changes" comment="lr_7">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/insurances/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/insurances/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/insurances/Insurance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/insurances/Insurance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/insurances/Life.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/insurances/Life.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/insurances/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/insurances/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -5,16 +5,22 @@ public interface Insurance {
 
     /**
      * calculation of the level of risk
+     *
+     * @return
      */
-    void calculateRisk();
+    double calculateRisk();
     /**
      * calculation of insurance premium
+     *
+     * @return
      */
-    void calculatePrice();
+    int calculatePrice();
 
     /**
      * to calculate the payment
+     *
+     * @return
      */
-    void calculatePayment();
+    int calculatePayment();
 
 }
